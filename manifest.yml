@@ -1,0 +1,6 @@
+---
+applications:
+- name: slack-scriber
+  buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
+  memory: 256M
+  disk_quota: 256M
